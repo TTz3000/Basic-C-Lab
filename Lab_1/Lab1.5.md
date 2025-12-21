@@ -15,9 +15,9 @@ int main() {
 
     while ( number != 0 ) { 
         if (number % 2 == 0) {
-            evensum ++;
+            evensum += number ;
         } else {
-            oddsum ++;  
+            oddsum += number ;  
         }
         
         if (scanf("%d", &number) != 1) {
@@ -37,14 +37,16 @@ int main() {
 ## TEST CASE
 ### Input
 ```c++
-40
-69
+5
+7
+2
+8
 0
 ```
 ### Output
 ```c++
-Even sum : 1
-Odd sum : 1
+Even sum : 10
+Odd sum : 12
 ```
 
 ****
