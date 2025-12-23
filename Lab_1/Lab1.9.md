@@ -34,7 +34,7 @@ int main() {
         break;
     default:
         printf("Invalid Zone Code");
-        break;
+        return 1 ;
     }
 
     if (totalCost > 0.0 || zoneCode > 3 || zoneCode < 1) {
